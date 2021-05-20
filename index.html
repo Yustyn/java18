@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- <button>Button</button> -->
+    <table>
+        <thead>
+            <td>1 UAH equals</td>
+        </thead>
+        <thead>
+            <td>
+                <div id="current" style="float: left;"></div><span style="white-space: pre;"> USD</span>
+            </td>
+        </thead>
+        <tr>
+            <td>Value</td>
+            <td>Currency</td>
+            <td></td>
+            <td>Exchange rate</td>
+            <td>Result</td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" placeholder="value" id="value1">
+            </td>
+            <td>
+                <input type="text" list="valuta" id="valuta2" placeholder="choouse currency">
+            </td>
+            <td id="cc1"></td>
+            <td>
+                <div id="kurs1">0</div>
+            </td>
+            <td id="result1">
+
+            </td>
+            <td>UAH</td>
+
+        </tr>
+        <tr></tr>
+        <tr>
+            <td>
+                <input type="text" placeholder="value" id="value2">
+            </td>
+            <td id="te">
+                <input type="text" list="valuta" id="valuta1" placeholder="choouse currency">
+            </td>
+            <td id="cc2"></td>
+            <td>
+                <div id="kurs2">0</div>
+            </td>
+            <td id="result2">
+
+            </td>
+
+        </tr>
+    </table>
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>

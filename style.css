@@ -1,0 +1,14 @@
+.completed {
+    color: green;
+}
+.incompleted{
+    color: red;
+}
+
+#kurs1, #kurs2 {
+    text-align: center;
+}
+
+#cc1, #cc2 {
+    width: 50px;
+}
